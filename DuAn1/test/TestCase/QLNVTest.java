@@ -70,6 +70,24 @@ public class QLNVTest {
         int ex=1;
         assertEquals(ex, test);
     }
+    @Test
+    public void testAddNV06(){
+        int test=qlnv.addNV(new NhanVienTest("NV01", "Bui Minh Hieu", "12-6-2003", "Ha Nam", "083237242", "", "hieubmph21306@fpt.edu.vn", "0218329392", "", "Nhân Viên"));
+        int ex=1;
+        assertEquals(ex, test);
+    }
+    @Test
+    public void testAddNV07(){
+        int test=qlnv.addNV(new NhanVienTest("NV01", "Bui Minh Hieu", "12-6-2003", "Ha Nam", "083237242", "Đang Làm Việc", "", "0218329392", "", "Nhân Viên"));
+        int ex=1;
+        assertEquals(ex, test);
+    }
+    @Test
+    public void testAddNV08(){
+        int test=qlnv.addNV(new NhanVienTest("NV01", "Bui Minh Hieu", "12-6-2003", "Ha Nam", "083237242", "Đang Làm Việc", "hieubmph21306@fpt.edu.vn", "", "", "Nhân Viên"));
+        int ex=1;
+        assertEquals(ex, test);
+    }
   
     
 }
