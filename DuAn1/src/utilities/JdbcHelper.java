@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class JdbcHelper {
 	private final static String DRIVE = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
 	private final static String USERNAME = "sa";
-	private final static String PASSWORD = "1234";
+	private final static String PASSWORD = "hieu123";
 	private final static String SERVER = "localhost";
 	private final static String PORT = "1433";
 	private final static String DATABASE_NAME = "ToTo";

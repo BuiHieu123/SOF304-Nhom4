@@ -39,8 +39,8 @@ public class TaiKhoanRepositorys implements ITaiKhoanRepositorys {
         try {
             String query = "select * from TaiKhoan where MaTaiKhoan =? and MatKhau =? ";
             PreparedStatement ps = connection.prepareStatement(query);
-            ps.setString(0, maTaiKhoan);
-            ps.setString(1, matKhau);
+            ps.setString(1, maTaiKhoan);
+            ps.setString(2, matKhau);
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
                 TaiKhoanDomail taiKhoan = new TaiKhoanDomail();
