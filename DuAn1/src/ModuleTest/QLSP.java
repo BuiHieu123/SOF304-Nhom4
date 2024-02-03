@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class QLSP {
+
     public int addSP(SanPhamTest sp) {
         List<SanPhamTest> list = new ArrayList<>();
         list.add(new SanPhamTest("1000", "Trà bưởi", "còn hàng", "ngon", "", "L", "1000"));
