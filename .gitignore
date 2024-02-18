@@ -2,3 +2,5 @@
 .project
 *.class
 /DuAn1/dist/
+/DuAn1/nbproject/private/
+/DuAn1/build/
